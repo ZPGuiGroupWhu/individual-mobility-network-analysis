@@ -1,0 +1,24 @@
+network:
+  graph_type: undirected
+  self_loop: false
+
+multiscale_core_periphery:
+  cp_method: LipWeighted
+  significance_level: 0.05
+  min_nodes: 2
+  min_edges: 1
+  filter:
+    module_size_min: 10
+    average_degree_min: 2
+
+compressibility:
+  weight: movement_count
+  random_models:
+    - er
+  num_of_rand_net: 10
+  seed: 42
+  timeout_per_graph_seconds: 1200
+
+random:
+  seed: 42
+

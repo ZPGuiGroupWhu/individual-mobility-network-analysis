@@ -1,0 +1,23 @@
+project:
+  release_root: .
+
+datasets:
+  D1_YJMob100K:
+    public: true
+    imn_dir: data/D1_YJMob100K/IMN
+    location_sequence_dir: data/D1_YJMob100K/location_sequence
+  D2_VehicleTripleg:
+    public: false
+    reason: "Vehicle tripleg data are privacy-sensitive and are not distributed with the public code release."
+    imn_dir: data/private/D2_VehicleTripleg/IMN
+    location_sequence_dir: data/private/D2_VehicleTripleg/location_sequence
+  D3_FourSuqare:
+    public: true
+    imn_dir: data/D3_FourSuqare/IMN
+    location_sequence_dir: data/D3_FourSuqare/location_sequence
+
+outputs:
+  intermediate_dir: results/intermediate
+  tables_dir: results/tables
+  figures_dir: results/figures
+  logs_dir: results/logs
