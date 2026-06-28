@@ -1,14 +1,6 @@
 # Individual Mobility Network Analysis Code
 
-This repository contains the reproducibility code for an analytical manuscript
-on individual mobility networks. The public workflow starts from generated
-individual mobility network files (`IMN/G_*.json`) and associated location
-sequence files (`location_sequence/L_*.csv`). It does not rerun the full raw
-trajectory or check-in preprocessing by default.
-
-The code is organized for review and reuse: scripts in `scripts/` define the
-execution order, reusable analysis functions live under `src/paper_analysis/`,
-and generated outputs are written under `results/`.
+This repository contains the code for the paper “Scale-invariant and compressible core-periphery structure in human mobility”.
 
 ## Repository Layout
 
